@@ -29,7 +29,7 @@ else{
 
 
     e.preventDefault()//prevent it from refreshing
-    const url='http://localhost:3000/weather?search='+search.value
+    const url='/weather?search='+search.value
     fetch(url).then((response)=>{
         response.json().then((data)=>{
 
