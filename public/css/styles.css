@@ -19,7 +19,7 @@ min-height: 100vh;
 
 }
 
-#success,#failure{
+#success,#failure,#time{
     font-family: 'Bangers', cursive;
     font-size: 60px;
     margin-bottom: 6px;

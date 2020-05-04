@@ -4,7 +4,7 @@ const search = document.querySelector('input')
 const success= document.querySelector('#success')
 const failure=document.querySelector('#failure')
 
-
+const bs_time=document.querySelector('#time')
 
 
 
@@ -17,6 +17,7 @@ form.addEventListener('submit',(e)=>{
 
 failure.textContent=''
 success.textContent=''
+bs_time.textContent=''
 
     if(search.value===''){
 
@@ -46,6 +47,7 @@ else{
     console.log(data.weathercon)
     failure.textContent=data.weathercon
     success.textContent=data.location
+    bs_time.textContent="The observation time is "+data.obs_time
     
 
 }

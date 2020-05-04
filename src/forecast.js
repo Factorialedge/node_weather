@@ -24,7 +24,8 @@ else{
     callback(undefined,{
 
         place:respond.body.location.name,
-        weather_con:respond.body.current.weather_descriptions[0]
+        weather_con:respond.body.current.weather_descriptions[0],
+        obs_time:respond.body.current.observation_time
     })
 
 

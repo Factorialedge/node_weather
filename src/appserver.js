@@ -97,7 +97,8 @@ forecast(latitude,longitude,(error,data1)=>{
             latitude,
             longitude,
             location:data1.place,
-            weathercon:data1.weather_con
+            weathercon:data1.weather_con,
+            obs_time:data1.obs_time
 
 
 
